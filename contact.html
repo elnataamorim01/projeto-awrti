@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | awrti</title>
+    <meta name="description"
+        content="Entre em contato com a awrti. Solicite um orçamento ou tire suas dúvidas sobre nossos serviços de infraestrutura de TI.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">awrti<span>.</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Serviços <i class="fas fa-chevron-down"
+                                style="font-size: 0.7em;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="infrastructure.html">Infraestrutura</a></li>
+                            <li><a href="cloud.html">Cloud Computing</a></li>
+                            <li><a href="hosting.html">Hospedagem</a></li>
+                            <li><a href="backup.html">Backup em Nuvem</a></li>
+                            <li><a href="monitoring.html">Monitoramento</a></li>
+                            <li><a href="security.html">Segurança</a></li>
+                            <li><a href="virtualization.html">Virtualização</a></li>
+                            <li><a href="network.html">Redes</a></li>
+                            <li><a href="support.html">Suporte Técnico</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="active">Contato</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-header header-contact">
+        <div class="container">
+            <h1>Fale Conosco</h1>
+            <p>Estamos prontos para atender as necessidades da sua empresa.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 style="margin-bottom: 2rem;">Canais de Atendimento</h2>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>mtg25br@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>São Paulo, SP</p>
+                            <p style="font-size: 0.9rem; color: var(--gray-medium);">Atendemos remotamente em todo o
+                                Brasil.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 08:00 - 18:00</p>
+                            <p>Suporte 24/7 para clientes contratados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3 style="margin-bottom: 1.5rem;">Envie uma Mensagem</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail Corporativo</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company" placeholder="Nome da sua empresa">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="Orcamento">Solicitar Orçamento</option>
+                                <option value="Suporte">Suporte Técnico</option>
+                                <option value="Parceria">Parceria</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Como podemos ajudar?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%; border: none;">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>awrti<span>.</span></h4>
+                    <p>Soluções completas em infraestrutura de TI e Cloud Computing para empresas que buscam inovação e
+                        segurança.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="services.html">Serviços</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="infrastructure.html">Infraestrutura</a></li>
+                        <li><a href="cloud.html">Cloud Computing</a></li>
+                        <li><a href="security.html">Segurança</a></li>
+                        <li><a href="support.html">Consultoria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> mtg25br@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 awrti. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
