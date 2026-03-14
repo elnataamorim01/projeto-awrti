@@ -302,7 +302,7 @@ nav {
 }
 
 .header-infrastructure {
-    background-image: url('https://images.unsplash.com/photo-1596766746830-466d13bd699f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images/img.infra.jpg');
 }
 
 .header-cloud {
@@ -310,33 +310,16 @@ nav {
 }
 
 .header-hosting {
-    background-image: url('https://images.unsplash.com/photo-1563986768494-4dee46a38531?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images/img.hosting.jpg');
 }
 
 .header-backup {
-    background-image: url('https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-}
-
-.header-monitoring {
-    background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-}
-
-.header-security {
-    background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images/img.backup.jpg');
 }
 
 .header-virtualization {
-    background-image: url('https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('./images/img.virtualizacao.webp');
 }
-
-.header-network {
-    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-}
-
-.header-support {
-    background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-}
-
 
 /* Features / Benefits */
 .features {
