@@ -10,5 +10,9 @@ Contato -> Arreglar formulario / o menu tem todos serviços ainda ✅
 Infra -> Colocar um imagem / Ajustar serviços / Ajustar serviços videos ocultos
 A mesma coisa nas páginas do restante dos serviços ✅
 
+-----------------------------------------------------------
+
+Remover Segurança e consultoria do footer
+
 Colocar favicon
 
